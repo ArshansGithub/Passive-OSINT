@@ -92,7 +92,7 @@ reportAliases = duplicate(duplicate(aliases1) + duplicate(aliases2))
 
 print("[!] Writing report...")
 with open("report.txt", "w") as file:
-    file.write("="*50 + "\n" + "="*16 + "Made by Local#5353" + "=" * 16 + "\n" + "="*50 + "\n\n" + "-" * 18 + "Found Aliases!" + "-" * 18 + "\n\n")
+    file.write("="*50 + "\n" + "="*16 + "Made by Arshan" + "=" * 16 + "\n" + "="*50 + "\n\n" + "-" * 18 + "Found Aliases!" + "-" * 18 + "\n\n")
     if reportAliases == []:
         file.write("[!]" + " " * 12 + "No aliases found\n")
     else:
